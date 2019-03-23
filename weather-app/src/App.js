@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Titles from "./components/Titles";
 import Form from "./components/Form";
 import WeatherParams from "./components/WeatherParams";
+import Config from "./config.js"
 
-const API_KEY = "09978ae0f6c7d0fe485f99f94f7cd86c";
+//const API_KEY = "09978ae0f6c7d0fe485f99f94f7cd86c";
 
 class App extends React.Component {
   state = {
@@ -15,11 +16,11 @@ class App extends React.Component {
   getWeather = async (e) => {
     e.preventDefault();
     const city = e.target.elements.city.value;
-    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`);
+    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${Config.API_KEY}&units=metric`);
     const data = await api_call.json();
     
     if ( city ) {
-      if ( api_call.status == '404') {
+      if ( api_call.status === '404') {
         this.setState({
           temperature: undefined,
           city: undefined,
@@ -55,7 +56,7 @@ class App extends React.Component {
                 <div className="col-xs-5 title-container">
                   <Titles />
                 </div>
-                <div className="col-xs-7 form-container">
+                <div className="col-xs-5 form-container">
                   <Form getWeather={this.getWeather} />
                   <WeatherParams 
                     temperature={this.state.temperature} 
