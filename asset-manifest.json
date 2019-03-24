@@ -1,0 +1,17 @@
+{
+  "main.css": "/myWeatherApp/static/css/main.971e2d29.chunk.css",
+  "main.js": "/myWeatherApp/static/js/main.8e1dc12a.chunk.js",
+  "main.js.map": "/myWeatherApp/static/js/main.8e1dc12a.chunk.js.map",
+  "runtime~main.js": "/myWeatherApp/static/js/runtime~main.acc04077.js",
+  "runtime~main.js.map": "/myWeatherApp/static/js/runtime~main.acc04077.js.map",
+  "static/css/2.5a775020.chunk.css": "/myWeatherApp/static/css/2.5a775020.chunk.css",
+  "static/js/2.c6cc3f40.chunk.js": "/myWeatherApp/static/js/2.c6cc3f40.chunk.js",
+  "static/js/2.c6cc3f40.chunk.js.map": "/myWeatherApp/static/js/2.c6cc3f40.chunk.js.map",
+  "index.html": "/myWeatherApp/index.html",
+  "precache-manifest.bdce676e8e8a00eab0c1e000a2ec0aad.js": "/myWeatherApp/precache-manifest.bdce676e8e8a00eab0c1e000a2ec0aad.js",
+  "service-worker.js": "/myWeatherApp/service-worker.js",
+  "static/css/2.5a775020.chunk.css.map": "/myWeatherApp/static/css/2.5a775020.chunk.css.map",
+  "static/css/main.971e2d29.chunk.css.map": "/myWeatherApp/static/css/main.971e2d29.chunk.css.map",
+  "static/media/App.css": "/myWeatherApp/static/media/background2.a28b9319.gif",
+  "static/media/bootstrap.min.css": "/myWeatherApp/static/media/glyphicons-halflings-regular.fa277232.woff"
+}
