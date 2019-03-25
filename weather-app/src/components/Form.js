@@ -1,7 +1,7 @@
 import React from "react";
 
 function restrictToChar(e) {
-  const re = /[a-zA-Z]+/g;
+  const re = /[a-zA-Z ]+/g;
   if (!re.test(e.key)) {
     e.preventDefault();
   }
